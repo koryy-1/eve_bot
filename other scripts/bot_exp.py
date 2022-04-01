@@ -21,7 +21,7 @@ gateCoordsX = 2204
 gateCoordsY = 122
 prosto_cnt = 0
 
-hWnd = win32gui.FindWindow(None, 'EVE - AnSiri Senpai')
+hWnd = win32gui.FindWindow("trinityWindow", None)
 
 # x, y = pyautogui.position()
 # print(x, y)

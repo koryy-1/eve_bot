@@ -14,7 +14,7 @@ from ctypes import windll
 
 from fuzzywuzzy import fuzz
 
-hWnd = win32gui.FindWindow(None, 'EVE - AnSiri Senpai')
+hWnd = win32gui.FindWindow("trinityWindow", None)
 # 2560 * 1080
 
 gateCoordsX = 2204

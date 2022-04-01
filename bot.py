@@ -17,7 +17,7 @@ from fuzzywuzzy import fuzz
 
 # проверка hwnd клиента + проверка на вылеты
 
-hWnd = win32gui.FindWindow(None, 'EVE - AnSiri Senpai')
+hWnd = win32gui.FindWindow("trinityWindow", None)
 
 # print('следующая система:')
 current_system4 = ''

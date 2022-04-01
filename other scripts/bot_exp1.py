@@ -14,7 +14,7 @@ from ctypes import windll
 
 from fuzzywuzzy import fuzz
 
-hWnd = win32gui.FindWindow(None, 'EVE - AnSiri Senpai')
+hWnd = win32gui.FindWindow("trinityWindow", None)
 
 moveToX = 2240
 moveToY = 250
